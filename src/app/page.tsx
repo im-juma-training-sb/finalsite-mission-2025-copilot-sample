@@ -4,6 +4,7 @@ import { MissionSection } from "@/components/mission-section"
 import { GoalsSection } from "@/components/goals-section"
 import { VisionSection } from "@/components/vision-section"
 import { ImpactSection } from "@/components/impact-section"
+import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <GoalsSection />
         <VisionSection />
         <ImpactSection />
+        <ContactSection />
       </main>
       <Footer />
     </div>

@@ -85,7 +85,7 @@ export function MissionSection() {
           <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 to-purple-700 px-8 py-16 text-center shadow-xl">
             <div className="relative z-10">
               <h3 className="text-2xl font-bold text-white sm:text-3xl">
-                "Empowering Education Through Innovation"
+                &ldquo;Empowering Education Through Innovation&rdquo;
               </h3>
               <p className="mt-4 text-lg text-blue-100">
                 We envision a world where every educational institution has the tools and

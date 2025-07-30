@@ -12,6 +12,7 @@ export function Footer() {
     { name: "Goals", href: "#goals" },
     { name: "Vision", href: "#vision" },
     { name: "Impact", href: "#impact" },
+    { name: "Contact", href: "#contact" },
   ]
 
   const socialLinks = [
@@ -94,9 +95,15 @@ export function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+                    <button
+                      onClick={() => {
+                        const element = document.getElementById("contact")
+                        element?.scrollIntoView({ behavior: "smooth" })
+                      }}
+                      className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors text-left"
+                    >
                       Contact
-                    </Link>
+                    </button>
                   </li>
                 </ul>
               </div>
