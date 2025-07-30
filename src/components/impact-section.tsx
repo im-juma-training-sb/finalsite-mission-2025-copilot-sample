@@ -113,7 +113,7 @@ export function ImpactSection() {
               Areas of Impact
             </h3>
             <p className="mt-2 text-gray-600 dark:text-gray-300">
-              How we're making a difference in education
+              How we&apos;re making a difference in education
             </p>
           </div>
 

@@ -4,7 +4,6 @@ import Link from "next/link"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { cn } from "@/lib/utils"
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -12,6 +11,7 @@ const navigation = [
   { name: "Goals", href: "#goals" },
   { name: "Vision", href: "#vision" },
   { name: "Impact", href: "#impact" },
+  { name: "Contact", href: "#contact" },
 ]
 
 export function Header() {

@@ -57,7 +57,7 @@ export function VisionSection() {
           <div className="relative overflow-hidden rounded-3xl bg-white dark:bg-gradient-to-br dark:from-gray-800 dark:via-gray-700 dark:to-blue-900 p-12 text-center shadow-2xl border border-gray-100 dark:border-gray-700">
             <div className="relative z-10">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl mb-6">
-                "Transforming Education Through Innovation"
+                &ldquo;Transforming Education Through Innovation&rdquo;
               </h3>
               <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
                 By 2030, we envision Finalsite as the global leader in educational technology,
@@ -111,7 +111,7 @@ export function VisionSection() {
               Looking Beyond 2025
             </h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Our vision extends far beyond the immediate future. We're building the foundation
+              Our vision extends far beyond the immediate future. We&apos;re building the foundation
               for next-generation educational experiences that will shape how institutions
               connect, communicate, and inspire their communities for decades to come.
             </p>
